@@ -16,52 +16,6 @@ const ButtonOne = styled.button`
   }
 `;
 
-// const ButtonTwo = styled.button(
-//   {
-//     border: "none",
-//     padding: `5px 10px`,
-//     borderRadius: "5px",
-//     color: "#f5f7f7",
-
-//     "&:active": {
-//       backgroundColor: "#000f00",
-//     },
-//   },
-//   (props) => ({
-//     backgroundColor: props.backgroundColor,
-//   })
-// );
-
-// const fn = (props) => ({
-//   border: "none",
-//   padding: `5px 10px`,
-//   borderRadius: "5px",
-//   color: "#f5f7f7",
-
-//   "&:active": {
-//     backgroundColor: "#000f00",
-//   },
-//   backgroundColor: props.backgroundColor,
-// });
-
-// const ButtonThree = styled.button((props) => fn(props));
-
-// function BaseButton({ backgroundColor, children }) {
-//   return (
-//     <div>
-//       <ButtonOne backgroundColor={backgroundColor}>{children}</ButtonOne>
-//       <br />
-//       <br />
-//       <br />
-//       <ButtonTwo backgroundColor={backgroundColor}>{children}</ButtonTwo>
-//       <br />
-//       <br />
-//       <br />
-//       <ButtonThree backgroundColor={backgroundColor}>{children}</ButtonThree>
-//     </div>
-//   );
-// }
-
 function BaseButton({ className, backgroundColor, children, onClick }) {
   return (
     <ButtonOne className={className} backgroundColor={backgroundColor} onClick={onClick}>

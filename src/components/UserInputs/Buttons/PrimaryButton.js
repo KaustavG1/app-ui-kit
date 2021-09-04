@@ -1,8 +1,5 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/prop-types */
-// import React from "react";
-// import styled from "styled-components";
-
 import BaseButton from "./BaseButton";
 import extend from "../../../lib/hoc/extend";
 
@@ -16,15 +13,3 @@ const stylefunction = () => ({
 });
 
 export default extend(BaseButton, stylefunction);
-
-// const StyleAttachedComponent = styled(BaseButton)(stylefunction);
-
-// function PrimaryButton({ backgroundColor, children }) {
-//   return (
-//     <StyleAttachedComponent backgroundColor={backgroundColor}>
-//       {children}
-//     </StyleAttachedComponent>
-//   );
-// }
-
-// export default PrimaryButton;
